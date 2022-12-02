@@ -1,0 +1,82 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+body {
+  background-image: url(360_F_283136113_b3VRHNiOPFMOluzYJPpfuoH8Czh9c743.jpg);
+  background-repeat: no-repeat;
+  padding-top: 0px;
+  background-size: 100%;
+}
+table {
+  border: 1px solid black;
+  margin-top: 40px;
+}
+table tr td {
+  border: 1px solid black;
+  padding: 20px;
+}
+.days {
+  background-color: rgba(222, 184, 135, 0.644);
+  padding: 10px;
+}
+.dates {
+  background-color: rgba(100, 189, 237, 0.688);
+  padding: 10px;
+}
+.nd {
+  color: rgba(245, 245, 245, 0.714);
+  background-color: rgba(0, 0, 0, 0.433);
+}
+.free {
+  color: red;
+}
+.work {
+  color: green;
+}
+input[type="button"] {
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  background: rgb(89, 225, 225);
+  border-radius: 15px;
+  font-size: 20px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="button"]:hover {
+  transition: 0.5s;
+  background-color: rgb(47, 176, 176);
+}
+.wd:hover {
+  background-color: rgba(240, 248, 255, 0.796);
+  text-align: center;
+  transition: 0.5s;
+  color: rgba(255, 0, 0, 0.726);
+  font-size: 30px;
+  border-color: rgba(240, 255, 255, 0.849);
+}
+.w:hover {
+  background-color: rgba(240, 248, 255, 0.796);
+  text-align: center;
+  transition: 0.5s;
+  color: rgba(12, 150, 8, 0.856);
+  font-size: 30px;
+  border-color: rgba(240, 255, 255, 0.849);
+}
+.nd:hover {
+  font-size: 30px;
+  text-align: end;
+  transition: 0.7s;
+}
+.days .d:hover {
+  font-size: 30px;
+  background-color: rgba(240, 248, 255, 0.796);
+  text-align: center;
+
+  transition: 0.5s;
+  font-size: 30px;
+  border-color: rgba(240, 255, 255, 0.849);
+}

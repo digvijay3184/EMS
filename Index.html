@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="container">
+        <h1>EMS</h1>
+        <form method="post">
+          <div class="txt">
+            <input type="text" required />
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="txt">
+            <input type="password" class="pass" required />
+            <span></span>
+            <label>Password</label>
+          </div>
+          <div class="check">
+            <input type="checkbox" id="pass_show" class="show" />
+            <lable for="pass_show">Show</lable>
+          </div>
+
+          <a class="log_in" href="Home.html"
+            ><input type="button" value="Login"
+          /></a>
+        </form>
+      </div>
+    </div>
+    <script>
+      const show = document.querySelector(".show");
+      const pass = document.querySelector(".pass");
+
+      show.addEventListener("click", () => {
+        if (show.checked) {
+          pass.setAttribute("type", "text");
+        } else {
+          pass.setAttribute("type", "password");
+        }
+      });
+    </script>
+  </body>
+</html>
